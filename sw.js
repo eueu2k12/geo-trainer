@@ -1,8 +1,8 @@
 // Service Worker: legt die App im Gerät ab, damit sie auch ohne Internet startet.
 // Bei jedem Start mit Internet wird im Hintergrund die neueste Version geholt.
 // WICHTIG: Bei jedem Update den Namen V hochzählen (v1 -> v2 ...), damit alte Dateien ersetzt werden.
-const V = "lernapp-v1";
-const FILES = ["./", "./index.html", "./app.js", "./content.js", "./manifest.webmanifest",
+const V = "geografie-v1";
+const FILES = ["./", "./index.html", "./app.js", "./content.js", "./maps.js", "./maps/europa.webp", "./manifest.webmanifest",
                "./icon.svg", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
